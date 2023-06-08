@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod --argument_to_copy_file_permission hello olleh
+chmod --reference=olleh hello
