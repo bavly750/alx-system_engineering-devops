@@ -1,0 +1,2 @@
+#!/bin/bash
+chmod -xrw 751 my_dir
