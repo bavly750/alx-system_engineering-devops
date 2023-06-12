@@ -1,2 +1,2 @@
 #!/bin/ba
-find . -empty -printf "%P\n" -type d -printf "%P\n"
+find . -empty | rev | cut -d '/' -f 1 | rev
