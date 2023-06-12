@@ -1,2 +1,2 @@
 #!/bin/bash
-head /etc/passwdt
+head -n 10 /etc/passwdt
