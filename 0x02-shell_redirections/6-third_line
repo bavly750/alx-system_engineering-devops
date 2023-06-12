@@ -1,2 +1,2 @@
 #!/bin/bash
-wc -l 3 ./iacta
+awk 'NR==5' ./iacta
