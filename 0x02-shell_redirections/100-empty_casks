@@ -1,2 +1,2 @@
 #!/bin/ba
-ls -la -empty | sort
+find . -empty -printf "%P\n" -type d -printf "%P\n"
